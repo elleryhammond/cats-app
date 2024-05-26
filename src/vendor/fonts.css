@@ -1,0 +1,10 @@
+@font-face {
+  src: url("../../src/vendor/fonts/NotoSans-italic.woff2") format("woff2");
+  font-family: "NotoSans";
+  font-style: italic;
+}
+
+@font-face {
+  src: url("../../src/vendor/fonts/NotoSans-regular.woff2") format("woff2");
+  font-family: "NotoSans";
+}
