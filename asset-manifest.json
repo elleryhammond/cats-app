@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cats-app/static/css/main.dd62a550.css",
-    "main.js": "/cats-app/static/js/main.c50a6cb4.js",
+    "main.js": "/cats-app/static/js/main.b4e71a45.js",
     "static/js/453.b166b734.chunk.js": "/cats-app/static/js/453.b166b734.chunk.js",
     "static/media/background-image.png": "/cats-app/static/media/background-image.bda2c4a62ea0d8cb3008.png",
     "static/media/NotoSans-italic.woff2": "/cats-app/static/media/NotoSans-italic.d2996749ae01ab3021e5.woff2",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/cats-app/static/media/logo.cf47b1a9e88fcfd31a964e53ba88a9c6.svg",
     "index.html": "/cats-app/index.html",
     "main.dd62a550.css.map": "/cats-app/static/css/main.dd62a550.css.map",
-    "main.c50a6cb4.js.map": "/cats-app/static/js/main.c50a6cb4.js.map",
+    "main.b4e71a45.js.map": "/cats-app/static/js/main.b4e71a45.js.map",
     "453.b166b734.chunk.js.map": "/cats-app/static/js/453.b166b734.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd62a550.css",
-    "static/js/main.c50a6cb4.js"
+    "static/js/main.b4e71a45.js"
   ]
 }
