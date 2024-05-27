@@ -1,6 +1,6 @@
 # Cats-App
 
-An app for feline fanatics! Cats-App the returns cat facts from [CatFactsApi](https://catfact.ninja/) and cat images from [TheCatApi](https://thecatapi.com/). Users can search for a specified number of facts to recieve or generate a random cat image upon the click of a button. Meow!
+An app for feline fanatics! Cats-App returns cat facts from [CatFactsApi](https://catfact.ninja/) and cat images from [TheCatApi](https://thecatapi.com/). Users can search for a specified number of facts to recieve or generate a random cat image upon the click of a button. Meow!
 
 # Tools used to develop Cats-App
 
