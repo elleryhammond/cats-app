@@ -1,0 +1,41 @@
+.cat__images-generator {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cat__images-pictures {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 5px solid #000;
+  object-fit: cover;
+}
+.cat__images-button {
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  padding: 8px;
+  width: 220px;
+  border-radius: 8px;
+  background-color: #000;
+  font-size: 19px;
+  font-weight: bold;
+  color: #faebd7;
+  cursor: pointer;
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+
+.cat__images-button:hover {
+  color: #a9a9a9;
+}
+
+@media screen and (max-width: 450px) {
+  .cat__images-pictures {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}

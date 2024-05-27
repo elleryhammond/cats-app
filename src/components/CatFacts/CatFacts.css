@@ -1,0 +1,110 @@
+.cat__facts {
+  font-family: "NotoSans", Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.cat__facts-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cat__facts-background {
+  background: rgba(245, 245, 245, 0.6);
+  width: 400px;
+  border-radius: 8px;
+}
+
+.cat__facts-header {
+  padding-top: 5px;
+  font-size: 21px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cat__facts-form {
+  display: flex;
+  justify-content: center;
+  background-color: fff;
+  gap: 10px;
+  padding: 10px;
+  appearance: none;
+}
+
+.cat__facts-input {
+  background-color: #faebd7;
+  color: #000;
+  font-family: "NotoSans", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  width: 120px;
+  border-radius: 8px;
+  line-height: 20px;
+  border: 2px solid #000;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+}
+
+.cat__facts-input::placeholder {
+  color: #a9a9a9;
+}
+
+.cat__facts-input:hover {
+  border-color: #e9967a;
+  box-shadow: 0 0 10px #e9967a;
+  outline: none;
+}
+
+.cat__facts-button {
+  border: none;
+  padding: 5px;
+  width: 120px;
+  border-radius: 8px;
+  background-color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  color: #faebd7;
+  cursor: pointer;
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+
+.cat__facts-button:hover {
+  color: #a9a9a9;
+}
+
+.cat__facts-button:visited {
+  color: #000;
+}
+
+.cat__facts-load_button-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.cats__facts-load_button {
+  border: none;
+  padding: 5px;
+  width: 120px;
+  border-radius: 8px;
+  background-color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  color: #faebd7;
+  cursor: pointer;
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+
+.cats__facts-load_button:hover {
+  color: #a9a9a9;
+}
+
+@media screen and (max-width: 450px) {
+  .cat__facts-background {
+    width: 280px;
+  }
+}

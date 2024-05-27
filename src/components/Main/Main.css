@@ -1,0 +1,76 @@
+.main {
+  display: flex;
+  justify-content: center;
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.main__container {
+  background: rgba(245, 245, 245, 0.6);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.main__header {
+  color: #000;
+  font-style: italic;
+  font-size: 38px;
+  text-align: center;
+  margin: 0;
+}
+
+.main__buttons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.main__button {
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  padding: 8px;
+  width: 200px;
+  border-radius: 8px;
+  background-color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  color: #faebd7;
+  cursor: pointer;
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+
+.main__button:hover {
+  color: #a9a9a9;
+}
+
+.main__button:visited {
+  color: #000;
+}
+
+@media screen and (max-width: 450px) {
+  .main__header {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main__description {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main__button {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main__buttons {
+    gap: 10px;
+  }
+}

@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 200px 10px 200px;
+  color: #000;
+  background-color: #faebd7;
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  position: relative;
+  margin-top: auto;
+}
+
+.footer__link {
+  color: #000;
+}
+
+.footer__link:visited {
+  color: #000;
+}
+
+.footer__link:hover {
+  color: #a9a9a9;
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    margin: 0;
+    padding: 50px 20px 40px 20px;
+  }
+}

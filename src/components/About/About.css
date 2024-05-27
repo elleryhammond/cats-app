@@ -1,0 +1,53 @@
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 30px;
+}
+
+.about__header {
+  color: #000;
+  font-size: 25px;
+  background: rgba(245, 245, 245, 0.6);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.about__link {
+  color: #000;
+  font-size: 25px;
+}
+
+.about__link:visited {
+  color: #000;
+}
+
+.about__link:hover {
+  color: #a9a9a9;
+}
+
+.about__iframe {
+  padding: 50px;
+  margin: 0px;
+  width: 580px;
+  height: 373px;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__iframe {
+    max-width: 250px;
+    max-height: 200px;
+  }
+}

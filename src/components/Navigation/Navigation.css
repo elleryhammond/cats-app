@@ -1,0 +1,29 @@
+.navigation__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation__button {
+  color: #000;
+  font-size: 22px;
+  cursor: pointer;
+  border: none;
+  list-style-type: none;
+  background: none;
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.navigation__button:visited {
+  color: #000;
+}
+
+.navigation__button:hover {
+  color: #a9a9a9;
+}
+
+@media screen and (max-width: 450px) {
+  .navigation__buttons {
+    gap: 5px;
+  }
+}
