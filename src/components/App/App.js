@@ -6,7 +6,7 @@ import About from "../About/About";
 import CatImages from "../CatImages/CatImages";
 import Footer from "../Footer/Footer";
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
