@@ -8,4 +8,4 @@ This app was build with a stack of JavaScript, HTML/CSS for frontend styling, an
 
 # Link
 
-Check out Cat-App [here](https://elleryhammond.github.io/about)
+Check out Cat-App [here](https://elleryhammond.github.io/cats-app/)
