@@ -4,7 +4,7 @@ An app for feline fanatics! Cats-App returns cat facts from [CatFactsApi](https:
 
 # Tools used to develop Cats-App
 
-This app was build with a stack of JavaScript, HTML/CSS for frontend styling, and bootstrapped with Create ReactApp. Third part APIs were referenced with Fetch Api.
+This app was build with a stack of JavaScript, HTML/CSS for frontend styling, and bootstrapped with Create ReactApp. Third party APIs were referenced with Fetch Api.
 
 # Link
 
